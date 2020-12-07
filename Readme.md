@@ -35,7 +35,23 @@ _--Procedural Programming...spaghetti_
    * Interface => sections of code communicate with one another...methods
    * Implementation...within class
 
-1. **Inherintance**
-   * Eliminate redundant code
-2. **Polymorphism**
+3. **Inherintance**
+* allows classes to derive from other classes...superclass..subclass..subclass
+* class hierachy
+* _**Access Modifiers**_:
+  * **_public_**.. can be Accessed from anywhere
+  * _**private**_...can only be Accessed within the same class that the member is defined
+  * **protected**...can be Accessed within class it's defined as well as any subclasses of that class.
+* Eliminate redundant code
+
+4. **Polymorphism**
+* describes methods that are able to take on many forms
+* types;
+    * **dynamic Polymorphism**
+  occurs during runtime of program & describes method signature is in both a subclass and superclass.
+  methods share same name but have different Implementation.
+* ...works becoz the form of method is decided based on where in the class hierachy it is called. ..dynamically.
+    *  **Static Polymorphism**.. occurs during complile-time ...this refers to when multiple methods with the same but different arguments are defined in the same class.
+    *  method overloading.. diff no of parameters..
+
    * Refactor ugly switch/case statements
