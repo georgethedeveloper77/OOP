@@ -45,13 +45,13 @@ _--Procedural Programming...spaghetti_
 * Eliminate redundant code
 
 4. **Polymorphism**
-* describes methods that are able to take on many forms
+* describes methods that are able to take on many different forms
 * types;
     * **dynamic Polymorphism**
   occurs during runtime of program & describes method signature is in both a subclass and superclass.
   methods share same name but have different Implementation.
 * ...works becoz the form of method is decided based on where in the class hierachy it is called. ..dynamically.
     *  **Static Polymorphism**.. occurs during complile-time ...this refers to when multiple methods with the same but different arguments are defined in the same class.
-    *  method overloading.. diff no of parameters..
+    *  **method overloading**.. diff no of parameters..
 
    * Refactor ugly switch/case statements
